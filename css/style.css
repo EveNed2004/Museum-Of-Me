@@ -29,6 +29,9 @@ header {
         padding: 0 10px;
     }
 }
+.active {
+    text-decoration: underline;
+}
 .date-p{
     font-size: 15px;
     font-family: "IBM Plex Sans", sans-serif;
@@ -145,4 +148,10 @@ footer {
 
 img {
     max-width: 100%;
+}
+
+
+body.full-page {
+    display: flex;
+    flex-direction: column;
 }
